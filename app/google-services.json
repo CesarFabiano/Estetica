@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "310861863647",
+    "firebase_url": "https://est-tica-facial.firebaseio.com",
+    "project_id": "est-tica-facial",
+    "storage_bucket": "est-tica-facial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310861863647:android:e04272f022194a7834276a",
+        "android_client_info": {
+          "package_name": "com.example.estticafacial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310861863647-ep9g0vpdqiaenp9m85l1pji626j1n23u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz2wY9rYxbUr3uVMVaNQok6xW1LjvIwT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310861863647-ep9g0vpdqiaenp9m85l1pji626j1n23u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.estticafacial">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_jjss"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_jjss_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TelaAcesso"></activity>
+        <activity android:name=".TelaRegistro" />
+        <activity android:name=".TelaInicial" />
+        <activity android:name=".CadastrarTrabalho" />
+        <activity android:name=".TrabalhoAdapter" />
+        <activity android:name=".TelaComeco">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
